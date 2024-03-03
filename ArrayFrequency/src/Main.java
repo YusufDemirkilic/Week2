@@ -1,18 +1,6 @@
 public class Main {
-    static void isTrue(int[] a, int[] b) {
-        for (int number : a) {
-            for (int clonNumber : b) {
-                if (number == clonNumber) {
-                    return;
-                }
-
-            }
-        }
-        return;
-    }
-
     public static void main(String[] args) {
-        int number, value = 0;
+        int number;
         int[] numberArray = {10, 20, 20, 10, 10, 20, 5, 20};
         int[] dubliCateArray = new int[numberArray.length];
         for (int num = 0; num < numberArray.length; num++) {
